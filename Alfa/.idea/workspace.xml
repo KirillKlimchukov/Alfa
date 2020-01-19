@@ -47,7 +47,7 @@
       <recent name="C:\Users\Kirill\IdeaProjects\Alfa\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestFakeService">
+  <component name="RunManager" selected="JUnit.TestFakeService.TestPerform">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Alfa" />
@@ -72,6 +72,17 @@
       <option name="MAIN_CLASS_NAME" value="TestFakeService" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestFakeService.TestPerform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Alfa" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestFakeService" />
+      <option name="METHOD_NAME" value="TestPerform" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,9 +126,11 @@
       <item itemvalue="JUnit.All in Alfa" />
       <item itemvalue="JUnit.TestFakeService" />
       <item itemvalue="JUnit.TestFakeService.testPergform" />
+      <item itemvalue="JUnit.TestFakeService.TestPerform" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFakeService.TestPerform" />
         <item itemvalue="JUnit.TestFakeService.testPergform" />
         <item itemvalue="Application.Main" />
       </list>
@@ -152,6 +165,7 @@
       <workItem from="1579197076706" duration="4517000" />
       <workItem from="1579348442623" duration="4833000" />
       <workItem from="1579433585488" duration="8481000" />
+      <workItem from="1579462807714" duration="236000" />
     </task>
     <servers />
   </component>
@@ -203,30 +217,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="486" height="466" key="DebuggerActiveHint/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579352632583" />
-    <state width="1475" height="291" key="GridCell.Tab.0.bottom" timestamp="1579462046172">
+    <state width="1475" height="291" key="GridCell.Tab.0.bottom" timestamp="1579463043725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1749" height="295" key="GridCell.Tab.0.bottom/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579012184138" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578989075319" />
-    <state width="1475" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462046172" />
-    <state width="1475" height="291" key="GridCell.Tab.0.center" timestamp="1579462046172">
+    <state width="1475" height="291" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579463043725" />
+    <state width="1475" height="291" key="GridCell.Tab.0.center" timestamp="1579463043725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1749" height="295" key="GridCell.Tab.0.center/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579012184138" />
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578989075319" />
-    <state width="1475" height="291" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462046172" />
-    <state width="1475" height="291" key="GridCell.Tab.0.left" timestamp="1579462046172">
+    <state width="1475" height="291" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579463043725" />
+    <state width="1475" height="291" key="GridCell.Tab.0.left" timestamp="1579463043725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1749" height="295" key="GridCell.Tab.0.left/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579012184137" />
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578989075319" />
-    <state width="1475" height="291" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462046172" />
-    <state width="1475" height="291" key="GridCell.Tab.0.right" timestamp="1579462046172">
+    <state width="1475" height="291" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579463043725" />
+    <state width="1475" height="291" key="GridCell.Tab.0.right" timestamp="1579463043725">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1749" height="295" key="GridCell.Tab.0.right/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579012184138" />
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578989075319" />
-    <state width="1475" height="291" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462046172" />
+    <state width="1475" height="291" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579463043725" />
     <state width="1877" height="364" key="GridCell.Tab.1.bottom" timestamp="1579462046169">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -252,22 +266,22 @@
     </state>
     <state x="432" y="186" key="SettingsEditor/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579081368178" />
     <state x="463" y="186" key="SettingsEditor/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578832149696" />
-    <state x="668" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1579433649822">
+    <state x="668" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1579462808014">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="369" key="com.intellij.ide.util.TipDialog/0.0.1792.1080/-1920.0.1920.1080@0.0.1792.1080" timestamp="1579080693613" />
     <state x="668" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578943267663" />
-    <state x="668" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579433649822" />
+    <state x="668" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462808014" />
     <state x="668" y="369" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1827.1080@0.0.1920.1080" timestamp="1579197217988" />
     <state x="-1583" y="20" width="1420" height="744" key="dock-window-1" timestamp="1579355531682">
       <screen x="-1920" y="0" width="1812" height="1080" />
     </state>
     <state x="-1583" y="20" width="1420" height="744" key="dock-window-1/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579355531682" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579436619086">
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579462851845">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1792.1080@0.0.1920.1080" timestamp="1578991033557" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579436619086" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1812.1080@0.0.1920.1080" timestamp="1579462851845" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
