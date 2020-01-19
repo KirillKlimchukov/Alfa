@@ -1,10 +1,10 @@
 package JsonNetProtocol;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
+        import com.google.gson.annotations.Expose;
+        import com.google.gson.annotations.SerializedName;
 
-import java.util.Date;
-import java.util.List;
+        import java.util.Date;
+        import java.util.List;
 
 public class InsuranceFull {
 
@@ -27,4 +27,13 @@ public class InsuranceFull {
     @Expose
     public List<InsuranceArr> insurance;
 
+    public InsuranceFull(){};
+    public InsuranceFull (int age){
+        this.age = age;
+    }
+
+
 }
+
+
+

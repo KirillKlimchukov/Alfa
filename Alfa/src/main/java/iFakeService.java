@@ -1,6 +1,10 @@
 import JsonNetProtocol.InsuranceFull;
 
+import java.util.ArrayList;
+
 public interface iFakeService
 {
-    public String parceIncomingJsonObj (InsuranceFull insuranceFull);
+    boolean InsuranceAdd(InsuranceFull insuranceFull );
+    boolean InsuranceRemove(InsuranceFull insuranceFull);
+    boolean InsuranceVerify(InsuranceFull insuranceFull);
 }
